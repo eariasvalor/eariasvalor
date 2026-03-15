@@ -37,6 +37,16 @@ I master the **Spring Boot** ecosystem (both MVC and **Reactive WebFlux**), SQL/
 
 ### 🚀 Featured Projects
 
+### 📚 Tutor App — AI Language Learning Platform *(in progress)*
+*Full Stack Developer*
+Educational platform where children practice language skills through **AI-guided tutoring conversations**, quizzes, and interactive exercises, while parents manage content and monitor progress.
+
+- **Architecture:** Modular monolith using **Hexagonal Architecture** and **DDD** with five bounded contexts (Users, Content, Tutor, Learning, Progress).
+- **AI Integration:** Claude-powered tutoring conversations and AI-generated quiz content through dedicated domain ports.
+- **Event-Driven:** Learning and Tutor contexts publish domain events consumed by **Progress projections** for analytics.
+- **Clean Domain Model:** Aggregates isolated per bounded context with cross-context communication via **shared IDs and domain events**.
+- **Tech:** Java, Spring Boot, PostgreSQL, Claude API, JWT, Testcontainers.
+
 #### 🏙️ [City Fix - Urban Incident Platform] (in progress)
 *Full Stack Java Developer*
 Comprehensive platform for managing and visualizing geolocated urban incidents.
