@@ -47,7 +47,7 @@ Educational platform where children practice language skills through **AI-guided
 - **Clean Domain Model:** Aggregates isolated per bounded context with cross-context communication via **shared IDs and domain events**.
 - **Tech:** Java, Spring Boot, PostgreSQL, Claude API, JWT, Testcontainers.
 
-#### 🏙️ [City Fix - Urban Incident Platform] (in progress)
+#### 🏙️ [City Fix - Urban Incident Platform]
 *Full Stack Java Developer*
 Comprehensive platform for managing and visualizing geolocated urban incidents.
 - **Architecture:** Designed REST API using **Hexagonal Architecture**, fully decoupling business logic from infrastructure.
